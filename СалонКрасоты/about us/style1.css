@@ -1,0 +1,60 @@
+body {
+	padding: 0;
+	font-size: 16px;
+	transition: 1s;
+	background: #f1e7e721;
+	color: #eee;
+}
+
+.text-up {
+	text-transform: uppercase;
+}
+
+.brand {
+	font: "Segoe Print";
+	font-style: italic;
+}
+
+.header-bg {
+	background: url("../imges/header1.jpg") no-repeat;
+	background-size: cover;
+	background-position: 50% 10%;
+}
+
+.logo{
+	width: 10%;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px white;
+}
+
+.navbar-nav li a {
+	color: #fff;
+	font-size: 1.4rem;
+	padding: .5rem;
+	min-width: 90px;
+}
+
+.active {
+	font-weight: 700;
+}
+
+.font-15rem {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 1.3rem;
+	}
+}
+
+main {
+	height: 39rem;
+}
+
+footer {
+	background: #4C0010;
+
+}
+
+
